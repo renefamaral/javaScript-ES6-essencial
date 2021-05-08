@@ -12,7 +12,7 @@
 
  */
 
- const fruit = 'pera';
+ const fruit = 'banana';
 
  switch (fruit) {
      case 'banana':

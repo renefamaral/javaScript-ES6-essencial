@@ -5,7 +5,7 @@ const numberAsString = myNumber.toString();
 console.log('Número trasnformado em String: ', numberAsString, typeof numberAsString);
 
 //Retorna número com um número de casas decimais
-const fixecTwoDecimals = myNumber.toFixed(2);
+const fixecTwoDecimals = myNumber.toFixed(0);
 console.log('\nNúmero com duas casas decimais: ', fixecTwoDecimals);
 
 //Transforma uma string em float

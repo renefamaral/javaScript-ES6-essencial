@@ -65,7 +65,7 @@ console.log(allCars);
 
 // slice - retorna um novo array "fatiando" o array de acordo com ínicio e fim - O slice é imutável
 
-const fatiando = allCars.slice(0, 2); // o primeiro parâmetro é o índice inicial enquanto o segundo é o índice final
+const fatiando = allCars.slice(0, 2); // o primeiro parâmetro é o índice inicial enquanto o segundo é o índice final o qual não será carregado
 console.log();
 console.log(fatiando);
 
@@ -92,6 +92,10 @@ const addNewCars = allCars.splice(1, 2, 'X1', 'UX 250h'); // o primeiro parâmet
 console.log();
 console.log(addNewCars); // carrega os item que foram excluídos
 console.log(allCars); // mostra o array alterado após as inserções e exclusões.
+
+
+
+
 
 
 
